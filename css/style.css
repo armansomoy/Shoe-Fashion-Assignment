@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    text-decoration-style: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0px;
+}
+
+body {
+    background-color: #FFF9F4;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: rgba(61, 79, 243, 1);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 25px;
+}
+
+/*===== Common css Ends =====*/
+
+#navbar a {
+    line-height: 80px;
+    padding: 0px 20px;
+    color: #3C3C3C;
+    font-weight: 600;
+}
+
+#banner-part {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#banner-part img {
+    width: 100%;
+}
+
+#banner-part h2 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #FA804C;
+    text-transform: uppercase;
+}
+
+#banner-part span {
+    color: #363958;
+}
+
+#banner-part p {
+    color: #3E3E3E;
+    font-size: 20px;
+}
+
+.banner-text {
+    padding-top: 100px;
+}
+
+#shoes-card {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+
+#shoes-card h1 {
+    padding-bottom: 60px;
+    color: #363958;
+}
+
+#shoes-card .shoes-photo {
+    background-color: rgb(240, 240, 240);
+    margin: 15px;
+    border-radius: 15px;
+}
+
+#shoes-card .card {
+    border: none;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+#shoes-card .card h5 {
+    display: inline;
+    padding: 10px 0px;
+    color: rgba(250, 128, 76, 1);
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+#shoes-card .card h4 {
+    font-style: normal;
+    color: #363958;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#shoes-card .card p {
+    color: #3E3E3E;
+}
+
+#shoes-card .card button {
+    float: right;
+}
+
+#service-part {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+
+#service-part img {
+    width: 100%;
+}
+
+#service-part .service-box {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    background-color: #ffff;
+    margin: 15px 0px;
+    padding: 10px 25px;
+
+}
+
+#service-part .service-box h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 0px;
+    color: #363958;
+}
+
+#service-part .service-box .service-box-img img {
+    width: 70%;
+}
+
+#service-part .service-box p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+
+}
+
+#footer-part {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#footer-part li {
+    list-style: none;
+}
+
+#footer-part a i {
+    background-color: rgba(61, 79, 243, 1);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    transition: all 0.3s;
+    border: 1px solid rgba(61, 79, 243, 1);
+}
+
+#footer-part i:hover {
+    background-color: #fff;
+    border: 1px solid rgba(61, 79, 243, 1);
+    color: rgba(61, 79, 243, 1);
+}
+
+@media (max-width: 575.98px) {
+    #navbar img {
+        width: 70%;
+    }
+
+    .navbar-toggler {
+        float: right;
+    }
+
+    #banner-part h2 {
+        font-size: 50px;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    #banner-part p {
+        color: #3E3E3E;
+        font-size: 16px;
+    }
+
+
+    .banner-text {
+        padding: 0px 0px 0px 30px;
+    }
+
+    #shoes-card h1 {
+        text-align: center;
+        font-size: 30px;
+        padding: 40px 70px;
+    }
+
+    #service-part .service-box {
+        text-align: center;
+        padding: 30px 25px;
+    }
+
+    #service-part .service-box .service-box-img img {
+        width: 35%;
+    }
+}
