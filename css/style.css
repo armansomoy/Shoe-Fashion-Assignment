@@ -76,6 +76,10 @@ button {
     font-size: 20px;
 }
 
+.responsive-img{
+    display: none;
+}
+
 .banner-text {
     padding-top: 100px;
 }
